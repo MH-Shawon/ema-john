@@ -13,7 +13,7 @@ const Shop = () => {
     },[]);
 
     const eventAddToCart = (product) =>{
-        console.log(product)
+        // console.log(product)
         const newCart = [...cart, product]
         setCart(newCart);
     }
